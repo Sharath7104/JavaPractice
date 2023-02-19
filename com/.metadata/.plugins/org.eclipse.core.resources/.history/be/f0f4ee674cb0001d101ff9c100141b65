@@ -1,0 +1,10 @@
+package com.dao;
+
+import com.dto.Student;
+
+public interface StudentDAO {
+	void addStudent(Student st);
+	void deleteStudent(int rollNo);
+	void updateStudent(Student st);
+	void displayStudent();
+}

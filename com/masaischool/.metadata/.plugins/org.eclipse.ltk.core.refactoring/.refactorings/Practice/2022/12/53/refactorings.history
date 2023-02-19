@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;practice.InputTaking&apos; to &apos;Rectangle&apos;&#x0D;&#x0A;- Original project: &apos;Practice&apos;&#x0D;&#x0A;- Original element: &apos;practice.InputTaking&apos;&#x0D;&#x0A;- Renamed element: &apos;practice.Rectangle&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;InputTaking&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;practice{InputTaking.java[InputTaking" matchStrategy="1" name="Rectangle" qualified="false" references="true" similarDeclarations="false" stamp="1672291122997" textual="false" version="1.0"/>
+</session>

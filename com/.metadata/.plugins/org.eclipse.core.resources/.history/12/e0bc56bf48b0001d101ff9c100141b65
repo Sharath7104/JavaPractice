@@ -1,0 +1,65 @@
+package com.dao;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+import com.dto.Student;
+
+public class StudentDAOImpl implements StudentDAO {
+	
+	@Override
+	public void addStudent(Student st) {
+		// TODO Auto-generated method stub
+		Connection conn = null;
+		try {
+			conn = DbUtils.connectToDatabase();
+			System.out.println("Connection Successful");
+			
+			String insertquery = "INSERT INTO STUDENT VALUES(?,?,?,?,?)";
+			PreparedStatement ps = conn.prepareStatement(insertquery);
+			ps.setInt(1, st.getRollNo());
+			ps.setString(2, st.getName());
+			ps.setString(3, st.getEmail());
+			ps.setDouble(4, st.getxPer());
+			ps.setString(5, st.getState());
+			
+			System.out.println(ps.executeUpdate()>0 ? "Student added successfully" : "Something went wrong");
+			
+			
+			
+			
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}finally {
+			try {
+				DbUtils.closeConnection(conn);
+				System.out.println("Connection closed");
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+	}
+
+	@Override
+	public void deleteStudent(int rollNo) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void updateStudent(Student st) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void displayStudent() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

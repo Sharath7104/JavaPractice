@@ -1,0 +1,5 @@
+package staticdemo;
+
+public class StaticDemo {
+
+}

@@ -1,0 +1,27 @@
+package jdbcConnection;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class ConnectionToDatabasesDay2 {
+	public static void main(String[] args) {
+		try {
+			Class.forName("com.mysql.cj.jdbc");
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			System.out.println("Driver not found check for jar file");
+			return;
+		}
+		String url = "jdbc:mysql://localhost/demo";
+		String username = "root";
+		String password = "root";
+		try(Connection conn = DriverManager.getConnection(url,username,password)){
+			System.out.println("Connection Successfull");
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		 
+	}
+}

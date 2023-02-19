@@ -1,0 +1,11 @@
+package com.ui;
+
+import com.dao.StudentDAO;
+import com.dao.StudentDAOImpl;
+
+public class UIMain {
+	public static void main(String[] args) {
+		StudentDAO st = new StudentDAOImpl();
+		st.addStudent(null);
+	}
+}

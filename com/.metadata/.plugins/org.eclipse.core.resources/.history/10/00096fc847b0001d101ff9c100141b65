@@ -1,0 +1,15 @@
+package com.ui;
+
+import com.dao.StudentDAO;
+import com.dao.StudentDAOImpl;
+import com.dto.Student;
+import com.dto.StudentImpl;
+
+public class UIMain {
+	public static void main(String[] args) {
+		Student student = new StudentImpl(3,"Som","som@gmail",65.25,"Karnataka");
+		
+		StudentDAO st = new StudentDAOImpl();
+		st.addStudent(student);
+	}
+}

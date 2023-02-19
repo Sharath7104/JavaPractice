@@ -1,0 +1,9 @@
+package com.dao;
+
+public interface StudentDao {
+	void addStudent();
+	void updateStudent();
+	void deleteStudent();
+	void displayStudents();
+	
+}

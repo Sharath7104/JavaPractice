@@ -1,0 +1,21 @@
+package staticdemo;
+
+
+class A{
+	static {
+		System.out.println("Inside static block");
+	}
+	
+	{
+		System.out.println("Inside non-static block");
+	}
+	
+	A(){
+		System.out.println("Inside Constructor");
+	}
+}
+public class StaticDemo {
+	public static void main(String[] args) {
+		A a = new A();
+	}
+}
