@@ -29,4 +29,18 @@
     <fullyQualifiedTypeName name="com.dao.DbUtils"/>
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
     <fullyQualifiedTypeName name="com.dto.StudentImpl"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.EntityManagerFactory"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Persistence"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.EntityManager"/>
+    <fullyQualifiedTypeName name="dao.PersonDaoImpl"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Entity"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.GeneratedValue"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.GenerationType"/>
+    <fullyQualifiedTypeName name="exceptions.EmployeeAddressException"/>
+    <fullyQualifiedTypeName name="dao.EmployeeDao"/>
+    <fullyQualifiedTypeName name="utilities.EMUtil"/>
+    <fullyQualifiedTypeName name="exceptions.EmployeeException"/>
 </qualifiedTypeNameHistroy>
