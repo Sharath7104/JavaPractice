@@ -11,7 +11,7 @@ public class Demo {
 		
 		A obj = ctx.getBean("a", A.class);
 		obj.funA();
-		obj = null;
+		
 		ClassPathXmlApplicationContext ctx1 =(ClassPathXmlApplicationContext)ctx;
 //		A obj1 = ctx.getBean("a", A.class);
 //		obj1.funA();
