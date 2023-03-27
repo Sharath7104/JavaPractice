@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<list key="installedFeatures">
 		<item value="org.eclipse.buildship:3.1.6.v20220511-1359"/>
+		<item value="org.eclipse.eclemma.feature:3.1.6.202206011447"/>
 		<item value="org.eclipse.egit.gitflow.feature:6.4.0.202211300538-r"/>
 		<item value="org.eclipse.egit:6.4.0.202211300538-r"/>
 		<item value="org.eclipse.emf.common:2.28.0.v20221121-1400"/>
@@ -15,6 +16,7 @@
 		<item value="org.eclipse.jgit.ssh.apache:6.4.0.202211300538-r"/>
 		<item value="org.eclipse.jgit:6.4.0.202211300538-r"/>
 		<item value="org.eclipse.jst.common.fproj.enablement.jdt:3.27.0.v202208260526"/>
+		<item value="org.eclipse.jst.enterprise_ui.feature:3.28.0.v202209230232"/>
 		<item value="org.eclipse.justj.openjdk.hotspot.jre.full:17.0.5.v20221102-0933"/>
 		<item value="org.eclipse.m2e.feature:2.1.2.20221130-2239"/>
 		<item value="org.eclipse.m2e.logback.feature:2.1.0.20221015-0744"/>
@@ -29,6 +31,9 @@
 		<item value="org.eclipse.tm.terminal.view.feature:11.0.0.202211062329"/>
 		<item value="org.eclipse.userstorage:1.2.0.v20210517-0327"/>
 		<item value="org.eclipse.wst.common.fproj:3.7.3.v202111212041"/>
+		<item value="org.eclipse.wst.json_ui.feature:1.1.10.v202211200019"/>
+		<item value="org.eclipse.wst.web_ui.feature:3.28.0.v202211200019"/>
+		<item value="org.eclipse.wst.xml_ui.feature:3.28.0.v202211200019"/>
 		<item value="org.jboss.tools.m2e.wro4j.feature:1.2.0.202209071019"/>
 		<item value="org.sonatype.m2e.egit.feature:0.17.0.202209271423"/>
 	</list>
